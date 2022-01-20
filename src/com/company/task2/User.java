@@ -25,4 +25,12 @@ public class User {
         return team;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "email='" + email + '\'' +
+                ", loginDate=" + loginDate +
+                ", team='" + team + '\'' +
+                '}';
+    }
 }
